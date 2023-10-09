@@ -119,7 +119,7 @@ nav .active a {
 }
 
 .content img {
-  width: 100%
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -136,10 +136,9 @@ nav .active a {
 @media screen and (max-width: 1024px) {
   .content img {
     --num-cols: 2;
-    --row-height: 200px
+    --row-height: 200px;
   }
 }
-  
 
 /* Social media icons */
 .portfolio {
@@ -190,9 +189,6 @@ input[type="submit"]:hover {
   background-color: #53a8b6; /* Using second-color for submit button hover */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-
-
-
 
 /* Footer */
 footer {
